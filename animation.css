@@ -1,0 +1,550 @@
+/* ========================================
+   1. NAVBAR
+======================================== */
+.navigation a{
+    transition:all 0.3s ease;
+}
+
+.navigation a:hover{
+    transform: translateY(-2px);
+    transform: scale(1.1);
+    color: #d4af37;
+    text-decoration: underline;
+}
+
+.login-button button{
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.login-button  button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 18px rgba(212, 175, 55, 0.30);
+    
+}
+
+
+/* ========================================
+   2. HERO SECTION
+======================================== */
+.btn1 button{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn2 button{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn1 button:hover{
+    background-color: #1d4ed8;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35); 
+} 
+
+.btn2 button:hover {
+    background-color: #b91c1c;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(220, 38, 38, 0.35);
+}
+
+
+/* ========================================
+   3. STATISTICS SECTION
+======================================== */
+
+
+
+.stats-container {
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+.stats-container:hover {
+    transform: translateY(-5px);
+}
+
+.stats-container .icon{
+    transition: all 0.3s ease;
+}
+
+.stats-container .icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 12px rgba(15, 23, 42, 0.12);
+}
+
+
+.stats-container .icon i {
+    transition: transform 0.35s ease;
+}
+
+.stats-container .icon i :hover {
+    transform: scale(1.12);
+}
+
+.stats-content h4 {
+    transition:all 0.3s ease;
+}
+
+.stats-content h4:hover  {
+    color: #2563eb;
+    transform: scale(1.05);
+}
+
+
+.stats-content span {
+    transition:all 0.3s ease;
+}
+
+.stats-content span:hover {
+    color: #16a34a;
+    color: red;
+    text-shadow: 0 0 6px rgba(22, 163, 74, 0.25);
+}
+
+/* ========================================
+COMPLAINT CATEGORY CARDS
+======================================== */
+
+.card {
+    cursor: pointer;
+    transition:transform 0.3s ease;
+       
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #2563eb;
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.15);
+}
+
+.card .problems-icon {
+    transition:all 0.3s ease;
+}
+
+.card .problems-icon :hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(15, 23, 42, 0.12);
+}
+
+.problems-icon i{
+    transition: all 0.35s ease;
+}
+.problems-icon i:hover{
+    transform: scale(1.1);
+}
+
+.card h3 {
+    transition:all 0.3s ease;
+}
+
+.card h3:hover{
+    color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.report-btn button{
+    transition: all 0.35s ease; 
+}
+.report-btn button:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.report-btn button i {
+    transition: transform 0.3s ease;
+}
+
+.report-btn button i:hover{
+    transform: translateX(4px);
+}
+
+/* ========================================
+ HOW IT WORKS SECTION
+======================================== */
+
+
+.category{
+    cursor: pointer;
+}
+
+.work-icon {
+    transition: all 0.3s ease;
+}
+
+.work-icon:hover{
+    box-shadow: 0 6px 15px rgba(15, 23, 42, 0.15);
+}
+
+.work-icon i{
+    transition: all 0.35s ease;
+}
+
+.work-icon i:hover{
+    transform: scale(1.15);
+}
+
+.category h3 {
+    transition:all 0.3s ease;
+}
+
+.category h3:hover {
+    color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.category p {
+    transition: all 0.3s ease;
+}
+
+.category:hover p {
+    color: #475569;
+}
+
+ /* ========================================
+COMPLAINT TRACKING STEPS
+ ======================================== */
+
+ .complaints-tracking .track {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.complaints-tracking .track:hover {
+    transform: translateY(-5px);
+}
+
+.complaints-tracking .track-circle {
+    transition:all 0.3s ease;
+}
+
+.complaints-tracking .track .track-circle:hover{
+    transform: scale(1.15);
+    background-color: #1d4ed8;
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.30);
+}
+
+
+.track-para p{
+    transition:all.3s ease;
+}
+.track-para p:hover{
+    color: #2563eb;
+    transform: translateX(3px);
+}
+
+.track-bar {
+    transition:all 0.3s ease;
+}
+
+.track-bar {
+    background-color: #1d4ed8;
+}
+
+/* ========================================
+SELECT PROBLEM CATEGORY
+======================================== */
+
+
+.category-box {
+    cursor: pointer;
+    transition:all 0.39s ease;
+        
+}
+
+.category-box:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.14);
+}
+
+.category-box-icon i {
+    transition:all 0.35s ease;
+}
+
+.category-box-icon i:hover {
+    transform: scale(1.12) rotate(4deg);
+}
+
+.category-box-content h4 {
+    transition:all 0.39s ease;
+}
+
+.category-box-content h4:hover{
+    color: #2563eb;
+    transform: translateX(3px);
+}
+
+.category-box-content p {
+    transition: all.3s ease;
+}
+
+.category-box-content p:hover {
+    color: #475569;
+}
+
+/* ========================================
+ PROBLEM TITLE & DESCRIPTION
+======================================== */
+
+
+.problem-title-content{
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+
+} 
+
+.problem-title-content:hover{
+    color: #2563eb;
+}
+
+.description-title-content{
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+
+} 
+
+.description-title-content:hover{
+    color: #2563eb;
+}
+
+
+.problem-title-input input{
+    transition: all 0.39s ease;
+
+}
+
+.problem-title-input input:hover{
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    transform: translateY(-2px);
+}
+
+
+.description-title-input textarea{
+    transition: all 0.39s ease;
+
+}
+.description-title-input textarea:hover {
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    transform: translateY(-2px);
+}
+
+
+.upload-photo-heading{
+    transition: all 0.39s ease;
+    cursor: pointer;
+
+}
+
+.upload-photo-heading:hover{
+    color: #2563eb;
+}
+
+.upload-input input{
+    transition: all 0.39s ease;
+}
+.upload-input input:hover{
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.submit-address-btn button{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit-address-btn button:hover{
+    background-color: #15803d;
+    box-shadow: 0 0 0 3px #15803d;
+}
+
+
+.location-button button{
+    cursor: pointer;
+    transition: 0.39s ease;
+}
+
+.location-button button:hover{
+    background-color: #1d4ed8;
+    box-shadow: 0 0 0 3px #1d4ed8;
+}
+
+.complaint-location-heading{
+    transition: all 0.39s ease;
+    cursor: pointer;
+
+}
+.complaint-location-heading:hover{
+    color: #2563eb;
+}
+
+
+
+/* Animation */
+
+.hero-content {
+    animation: fadeSlideUp 0.8s ease-out;
+}
+
+.hero-btn {
+    animation: fadeSlideUp 1s ease-out;
+}
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.card {
+    animation: cardAppear 0.7s ease both;
+}
+
+.card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.card:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.card:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.stats-content h4 {
+    animation: numberPop 0.8s ease-out;
+}
+
+@keyframes numberPop {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.track {
+    animation: trackAppear 0.6s ease both;
+}
+
+.track:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.track:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.track:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.track:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+@keyframes trackAppear {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.btn2 button {
+    animation: emergencyPulse 2s infinite;
+}
+
+@keyframes emergencyPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+    }
+}
+
+
+.upload-input input {
+    animation: uploadGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes uploadGlow {
+    0%, 100% {
+        border-color: #93c5fd; 
+    }
+
+    50% {
+        border-color: #2563eb;
+    }
+}
+
+
+
+.location-button button i {
+    animation: locationPulse 1.8s infinite;
+}
+
+@keyframes locationPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
